@@ -15,13 +15,13 @@ As of September 3, 2013, these scripts have been removed from the
 project and are not being actively developed. Use them at your own 
 risk.
 
-Documentation And Script Hierarchy
-==================================
+Documentation and Other Notes
+=============================
 
 Instructions to run the scripts are provided in ``./install/doc``.
 
 To be able to run the scripts, clone the Makahiki repository 
-(http://github.com/csdl/makahiki.git) and copy the ``install`` 
+(http://github.com/csdl/makahiki) and copy the ``install`` 
 directory into the top-level ``makahiki`` directory.
 
 The ubuntu_installer.py file and its subscripts were tested on 
@@ -29,7 +29,8 @@ Ubuntu 12.04.2 LTS x86 and x64 architectures.
 
 The python273_sclinstall.py file was tested on CentOS 6.4 i386 
 (x86 architecture) and CentOS 6.4 x86_64 (x64 architecture). It was 
-intended for use on RHEL and CentOS 6.
+intended for use on RHEL and CentOS 6, where it executes an SCL installation 
+of Python 2.7.3.
 
 The redhat_installer.py file and its subscripts were tested on 
 CentOS 6.4 i386 and CentOS 6.4 x86_64. They were intended for use on RHEL 
